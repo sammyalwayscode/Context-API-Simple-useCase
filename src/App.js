@@ -1,11 +1,14 @@
 import Counter from "./Components/GlobalCounter/Counter";
 import { GlobalState } from "./Components/GlobalCounter/GlobalState";
+import Count from "./Components/NewGlobal/Count";
 
 const App = () => {
   return (
     <GlobalState>
       <div>
-        <Counter />
+        <center>
+          <Count />
+        </center>
       </div>
     </GlobalState>
   );
